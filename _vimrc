@@ -77,8 +77,8 @@ set completeopt=menuone,menu,longest,preview
 
 "let g:EchoFuncKeyNext='<Esc>+'
 "let g:EchoFuncKeyPrev='<Esc>-'
-imap <C-u> <M-=>
-imap <C-i> <M-->
+"imap <C-u> <M-=>
+"imap <C-i> <M-->
 
 let g:EchoFuncAutoStartBalloonDeclaration = 1
 
