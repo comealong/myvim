@@ -75,8 +75,11 @@ au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 "au BufewFile,BufRead,BufEnter *.cpp,*.hpp set omnifunc=omni#cpp#complete#Main
 
-let g:EchoFuncKeyNext='<S-n>'
-let g:EchoFuncKeyPrev='<S-p>'
+"let g:EchoFuncKeyNext='<Esc>+'
+"let g:EchoFuncKeyPrev='<Esc>-'
+"imap <C-u> <M-=>
+"imap <C-i> <M-->
+
 let g:EchoFuncAutoStartBalloonDeclaration = 1
 
 filetype plugin on  
