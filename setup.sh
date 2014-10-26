@@ -9,6 +9,7 @@ git clone https://github.com/vim-scripts/echofunc.vim.git
 cp -f echofunc.vim/plugin/echofunc.vim  ~/.vim/plugin/
 
 # ctags must be installed
+# ctags -R --sort=1 --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ .
 git clone https://github.com/vim-scripts/OmniCppComplete.git
 cp -f -R OmniCppComplete/* ~/.vim/
 
