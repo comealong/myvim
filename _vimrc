@@ -50,7 +50,7 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete  
 
 
-let g:pydiction_location='~/.vim/tools/pydiction/complete-dict'  
+"let g:pydiction_location='~/.vim/tools/pydiction/complete-dict'  
 "set smartindent
 "set tabstop=4  
 "set shiftwidth=4  
